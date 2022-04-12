@@ -13,6 +13,16 @@ hbase数据库的工具类
      </dependency>
 ```
 
+### 添加配置
+`/config/hbase.config` `resource/hbase.config`
+```
+zookeeper_quorum=bd103.hadoop.com,bd101.hadoop.com,bd102.hadoop.com
+zookeeper_port=2181
+znode_parent=/hbase-unsecure
+
+```
+
+
 ### 自定义数据类
 ```Java
 @Table("person")
