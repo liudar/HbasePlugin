@@ -12,7 +12,8 @@ hbase数据库的工具类
 </dependency>
 
 
-自定义类
+自定义类;
+
 
 `{
 @Table("person")
