@@ -2,9 +2,7 @@
 hbase数据库的工具类
 
 ### 添加依赖
-1. 直接使用jar
-
-2. 添加依赖
+下载项目, 运行maven的install命令然后添加依赖
 ```Java
      <dependency>
             <groupId>com.echo</groupId>
