@@ -10,7 +10,7 @@ hbase数据库的工具类
             <groupId>com.echo</groupId>
             <artifactId>HbasePlugin</artifactId>
             <version>1.1</version>
-        </dependency>
+     </dependency>
 ```
 
 自定义类;
