@@ -5,12 +5,13 @@ hbase数据库的工具类
 1. 直接使用jar
 
 2. 添加依赖
+```Java
 <dependency>
             <groupId>com.echo</groupId>
             <artifactId>HbasePlugin</artifactId>
             <version>1.1</version>
 </dependency>
-
+```
 
 自定义类;
 
