@@ -13,13 +13,7 @@ hbase数据库的工具类
      </dependency>
 ```
 
-自定义类;
-
-`你好`
-`你好`
-`你好`
-
-
+`自定义类`
 ```Java
 @Table("person")
 public class Person extends HbaseEntity {
