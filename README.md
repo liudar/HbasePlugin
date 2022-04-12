@@ -19,8 +19,7 @@ hbase数据库的工具类
 `你好`
 
 
-`
-@Table("person")
+``@Table("person")
 public class Person extends HbaseEntity {
     @Column("d:name")
     public String name;
@@ -37,6 +36,5 @@ public class Person extends HbaseEntity {
     public byte[] getKey() {
         return super.getKey();
     }
-}
-`
+}``
 
