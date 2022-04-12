@@ -7,9 +7,9 @@ hbase数据库的工具类
 2. 添加依赖
 ```Java
 <dependency>
-            <groupId>com.echo</groupId>
-            <artifactId>HbasePlugin</artifactId>
-            <version>1.1</version>
+      <groupId>com.echo</groupId>
+      <artifactId>HbasePlugin</artifactId>
+      <version>1.1</version>
 </dependency>
 ```
 
