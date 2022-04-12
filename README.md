@@ -42,7 +42,7 @@ public class Person extends HbaseEntity {
     }
 }
 ```
-```
+```Java
 @Table("person")
 @Family("d")
 public class Person extends HbaseEntity {
