@@ -51,7 +51,7 @@ public class Person extends HbaseEntity {
     public int age;
     public int sex;
 
-    //自定义 Hbase 中的key
+    //自定义 Hbase 中的rowkey
     @Override
     public byte[] getKey() {
         return super.getKey();
@@ -63,7 +63,7 @@ public class Person extends HbaseEntity {
 ```Java
 //这个类中定义了一些常用的方法, 也可以自己添加方法
 Table<Person> table = new Table(Person.class);
-
+//通过rowkey获取数据
 Optional<Person> person = table.get(null);
 
 System.out.println(person.get().name);
