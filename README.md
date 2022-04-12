@@ -42,6 +42,22 @@ public class Person extends HbaseEntity {
     }
 }
 ```
+```
+@Table("person")
+@Family("d")
+public class Person extends HbaseEntity {
+    //默认column和属性相同
+    public String name;
+    public int age;
+    public int sex;
+
+    //自定义 Hbase 中的key
+    @Override
+    public byte[] getKey() {
+        return super.getKey();
+    }
+}
+```
 
 ### 查询数据
 ```Java
