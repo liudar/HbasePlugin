@@ -11,3 +11,23 @@ hbase数据库的工具类
             <version>1.1</version>
 </dependency>
 
+
+自定义类
+@Table("person")
+public class Person extends HbaseEntity {
+    @Column("d:name")
+    public String name;
+
+    @Column("d:age")
+    public int age;
+
+    @Family("d")
+    @Column("sex")
+    public int sex;
+
+    //自定义 Hbase 中的key
+    @Override
+    public byte[] getKey() {
+        return super.getKey();
+    }
+}
