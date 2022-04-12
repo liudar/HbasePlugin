@@ -35,3 +35,13 @@ public class Person extends HbaseEntity {
 }
 ```
 
+### 获取数据
+```Java
+//这个类中定义了一些常用的方法, 也可以自己添加方法
+Table<Person> table = new Table(Person.class);
+
+Optional<Person> person = table.get(null);
+
+System.out.println(person.get().name);
+```
+
