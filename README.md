@@ -23,6 +23,11 @@ hbase数据库的工具类
 public class Person extends HbaseEntity {
     @Column("d:name")
     public String name;
+    
+@Table("person")
+public class Person extends HbaseEntity {
+    @Column("d:name")
+    public String name;
 
     @Column("d:age")
     public int age;
